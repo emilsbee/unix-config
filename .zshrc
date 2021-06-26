@@ -1,12 +1,12 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:/home/emils/.local/bin:$PATH
+#export PATH=$HOME/bin:/usr/local/bin:/home/emils/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/emils/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 export NODEJS_HOME=/usr/local/lib/node/nodejs
 export PATH=$NODEJS_HOME/bin/:$PATH
 export PATH=/usr/local/bin/Postman/:$PATH
-export PATH=/home/emils/opt/apache-maven-3.8.1/bin:$PATH
+export PATH=~/opt/apache-maven-3.8.1/bin:$PATH
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
@@ -110,8 +110,8 @@ alias c="clear"
 alias open="xdg-open"
 alias h="history"
 alias postman="Postman"
-alias droid="sh /home/emils/opt/android-studio/bin/studio.sh"
-alias tomcat="sh /home/emils/opt/apache-tomcat-8.5.65/bin/startup.sh"
-alias tomcatDown="sh /home/emils/opt/apache-tomcat-8.5.65/bin/shutdown.sh"
+alias droid="sh ~/opt/android-studio/bin/studio.sh"
+alias tomcat="sh ~/opt/apache-tomcat-8.5.65/bin/startup.sh"
+alias tomcatDown="sh ~/opt/apache-tomcat-8.5.65/bin/shutdown.sh"
 alias idea="/snap/bin/intellij-idea-ultimate"
 alias code="/usr/share/code/code"
