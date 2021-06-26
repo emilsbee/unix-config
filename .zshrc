@@ -2,7 +2,7 @@
 #export PATH=$HOME/bin:/usr/local/bin:/home/emils/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="~/.oh-my-zsh"
+export ZSH="/home/emils/.oh-my-zsh"
 export NODEJS_HOME=/usr/local/lib/node/nodejs
 export PATH=$NODEJS_HOME/bin/:$PATH
 export PATH=/usr/local/bin/Postman/:$PATH
